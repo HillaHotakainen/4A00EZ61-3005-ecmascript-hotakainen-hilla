@@ -1,5 +1,3 @@
-let readLineSync = require("readline-sync");
-
 const numbers = process.argv.slice(2);
 let one = Number(numbers[0]);
 let two = Number(numbers[1]);
