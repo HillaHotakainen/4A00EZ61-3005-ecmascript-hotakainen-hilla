@@ -18,7 +18,7 @@ function letti() {
   );
 }
 
-//y = 3; You can not change const, running this line would trow error.
+//y = 3; You can not change const, running this line would throw error.
 
 varri();
 letti();
