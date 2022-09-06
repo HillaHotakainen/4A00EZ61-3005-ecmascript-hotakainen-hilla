@@ -10,7 +10,6 @@ function add(name) {
 }
 function remove(id) {
   database.splice(id, 1);
-  console.log(database);
 }
 function display() {
   var options = {
