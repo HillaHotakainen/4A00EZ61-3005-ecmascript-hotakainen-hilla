@@ -14,9 +14,6 @@ function parseJson(data) {
     } else {
       reject("property name not found");
     }
-    // parse the data (do not implement try catch, if exception occurs, this
-    // will be catched automatically in your catch outside of this function.
-    // if name is found from obj, call resolve, otherwise call reject
   }
   const p = new Promise(func);
   return p;
