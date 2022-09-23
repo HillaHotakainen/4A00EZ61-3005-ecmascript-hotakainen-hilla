@@ -1,9 +1,5 @@
 function doIt(bool) {
-  if (bool === true) {
-    return () => console.log("world");
-  } else {
-    return () => console.log("hello");
-  }
+  return bool ? () => console.log("world") : () => console.log("hello");
 }
 
 doIt(false)(); // outputs hello
