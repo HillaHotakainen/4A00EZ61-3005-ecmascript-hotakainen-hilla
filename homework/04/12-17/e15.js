@@ -18,5 +18,7 @@ let user = {
 setTimeout(() => user.sayHello(), 1000);
 
 user.sayHello = function () {
-  console.log("user.sayHello is defined now as a string, shit breaks");
+  console.log(
+    "user.sayHello is defined now as a function that prints string, shit breaks"
+  );
 };
